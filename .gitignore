@@ -1,0 +1,15 @@
+.dub
+docs.json
+__dummy.html
+docs/
+/app-portals
+app-portals.so
+app-portals.dylib
+app-portals.dll
+app-portals.a
+app-portals.lib
+app-portals-test-*
+*.exe
+*.o
+*.obj
+*.lst
