@@ -1,7 +1,10 @@
-module apps.portals.badges;
+module apps.portals.controllers.pages.badges;
 
 @safe:
 import apps.portals;
 
-public import apps.portals.badges.badge;
-public import apps.portals.badges.type;
+// Main
+public import apps.portals.controllers.pages.badges.badge;
+
+// Additional
+public import apps.portals.controllers.pages.badges.type;

@@ -1,8 +1,10 @@
-module apps.portals.cases;
+module apps.portals.controllers.pages.cases;
 
 @safe:
 import apps.portals;
 
-public import apps.portals.cases.case_;
+// Main
+public import apps.portals.controllers.pages.cases.case_;
 
-public import apps.portals.cases.deflection;
+// Additional
+public import apps.portals.controllers.pages.cases.deflection;

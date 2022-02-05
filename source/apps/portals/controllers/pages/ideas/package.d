@@ -1,8 +1,10 @@
-module apps.portals.ideas;
+module apps.portals.controllers.pages.ideas;
 
 @safe:
 import apps.portals;
 
-public import apps.portals.ideas.idea;
+// Main
+public import apps.portals.controllers.pages.ideas.idea;
 
-public import apps.portals.ideas.forum;
+// Additional
+public import apps.portals.controllers.pages.ideas.forum;
