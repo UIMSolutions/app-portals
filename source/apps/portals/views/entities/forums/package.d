@@ -1,10 +1,12 @@
-module apps.portals.forums;
+module apps.portals.views.entities.forums;
 
 @safe:
 import apps.portals;
 
-public import apps.portals.forums.forum;
+// Main
+public import apps.portals.views.entities.forums.forum;
 
-public import apps.portals.forums.post;
-public import apps.portals.forums.thread;
-public import apps.portals.forums.thread_type;
+// Additional
+public import apps.portals.views.entities.forums.post;
+public import apps.portals.views.entities.forums.thread;
+public import apps.portals.views.entities.forums.thread_type;

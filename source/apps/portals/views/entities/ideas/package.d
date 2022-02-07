@@ -1,8 +1,10 @@
-module apps.portals.ideas;
+module apps.portals.views.entities.ideas;
 
 @safe:
 import apps.portals;
 
-public import apps.portals.ideas.idea;
+// Main
+public import apps.portals.views.entities.ideas.idea;
 
-public import apps.portals.ideas.forum;
+// Additional
+public import apps.portals.views.entities.ideas.forum;

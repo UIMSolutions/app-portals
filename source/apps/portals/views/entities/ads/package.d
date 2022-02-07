@@ -1,7 +1,10 @@
-module apps.portals.ads;
+module apps.portals.views.entities.ads;
 
 @safe:
 import apps.portals;
 
-public import apps.portals.ads.ad;
-public import apps.portals.ads.placement;
+// Main
+public import apps.portals.views.entities.ads.ad;
+
+// Additional
+public import apps.portals.views.entities.ads.placement;

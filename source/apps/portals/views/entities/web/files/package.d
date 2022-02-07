@@ -1,9 +1,9 @@
-module apps.portals.web.files;
+module apps.portals.views.entities.web.files;
 
 @safe:
 import apps.portals;
 
-public import apps.portals.web.files.file;
+public import apps.portals.views.entities.web.files.file;
 
-public import apps.portals.web.files.log;
+public import apps.portals.views.entities.web.files.log;
 

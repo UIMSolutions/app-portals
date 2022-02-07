@@ -1,10 +1,10 @@
-module apps.portals.polls;
+module apps.portals.views.entities.polls;
 
 @safe:
 import apps.portals;
 
-public import apps.portals.polls.poll;
+public import apps.portals.views.entities.polls.poll;
 
-public import apps.portals.polls.option;
-public import apps.portals.polls.placement;
-public import apps.portals.polls.submission;
+public import apps.portals.views.entities.polls.option;
+public import apps.portals.views.entities.polls.placement;
+public import apps.portals.views.entities.polls.submission;

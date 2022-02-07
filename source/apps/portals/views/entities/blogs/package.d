@@ -1,8 +1,10 @@
-module apps.portals.blogs;
+module apps.portals.views.entities.blogs;
 
 @safe:
 import apps.portals;
 
-public import apps.portals.blogs.blog;
+// Main
+public import apps.portals.views.entities.blogs.blog;
 
-public import apps.portals.blogs.post;
+// Additional
+public import apps.portals.views.entities.blogs.post;
