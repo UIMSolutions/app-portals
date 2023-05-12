@@ -5,8 +5,8 @@
 ***********************************************************************************************************************/
 module apps.portals.views.entities.polls.placement;
 
-@safe:
 import apps.portals;
+@safe:
 
 public import apps.portals.views.entities.polls.placement.index;
 public import apps.portals.views.entities.polls.placement.create;

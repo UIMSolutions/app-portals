@@ -5,8 +5,8 @@
 ***********************************************************************************************************************/
 module apps.portals.views.entities.polls.submission;
 
-@safe:
 import apps.portals;
+@safe:
 
 public import apps.portals.views.entities.polls.poll.index;
 public import apps.portals.views.entities.polls.poll.create;

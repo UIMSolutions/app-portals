@@ -5,8 +5,8 @@
 ***********************************************************************************************************************/
 module apps.portals.views.entities.forums.thread;
 
-@safe:
 import apps.portals;
+@safe:
 
 public import apps.portals.views.entities.forums.thread.index;
 public import apps.portals.views.entities.forums.thread.create;

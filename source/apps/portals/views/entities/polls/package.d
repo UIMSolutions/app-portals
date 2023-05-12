@@ -5,8 +5,8 @@
 ***********************************************************************************************************************/
 module apps.portals.views.entities.polls;
 
-@safe:
 import apps.portals;
+@safe:
 
 public import apps.portals.views.entities.polls.poll;
 

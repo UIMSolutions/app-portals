@@ -5,8 +5,8 @@
 ***********************************************************************************************************************/
 module apps.portals.views.entities.web;
 
-@safe:
 import apps.portals;
+@safe:
 
 public import apps.portals.views.entities.web.files;
 public import apps.portals.views.entities.web.pages;

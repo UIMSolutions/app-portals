@@ -5,8 +5,8 @@
 ***********************************************************************************************************************/
 module apps.portals.views.entities.forums.forum;
 
-@safe:
 import apps.portals;
+@safe:
 
 public import apps.portals.views.entities.forums.forum.index;
 public import apps.portals.views.entities.forums.forum.create;

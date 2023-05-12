@@ -5,8 +5,8 @@
 ***********************************************************************************************************************/
 module apps.portals.views.entities.cases.case_;
 
-@safe:
 import apps.portals;
+@safe:
 
 public import apps.portals.views.entities.cases.case_.index;
 public import apps.portals.views.entities.cases.case_.create;

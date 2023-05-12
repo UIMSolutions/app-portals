@@ -5,8 +5,8 @@
 ***********************************************************************************************************************/
 module apps.portals.views.entities.cases.deflection;
 
-@safe:
 import apps.portals;
+@safe:
 
 public import apps.portals.views.entities.cases.deflection.index;
 public import apps.portals.views.entities.cases.deflection.create;
