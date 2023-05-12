@@ -4,6 +4,3 @@
 *	Authors: UI Manufaktur UG Team, Ozan Nurettin Süel (Sicherheitsschmiede)										                         * 
 ***********************************************************************************************************************/
 module apps.portals.classes;
-
-import apps.portals;
-@safe:

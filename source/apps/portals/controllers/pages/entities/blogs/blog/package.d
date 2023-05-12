@@ -1,7 +1,6 @@
 module apps.portals.controllers.pages.entities.blogs.blog;
 
-import apps.portals;
-@safe:
+
 
 public import apps.portals.controllers.pages.entities.blogs.blog.index;
 public import apps.portals.controllers.pages.entities.blogs.blog.create;
