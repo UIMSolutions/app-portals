@@ -5,8 +5,8 @@
 ***********************************************************************************************************************/
 module apps.portals.controllers.pages.entities.polls.submission;
 
-@safe:
 import apps.portals;
+@safe:
 
 
 // Main

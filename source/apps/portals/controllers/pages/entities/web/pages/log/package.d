@@ -1,7 +1,7 @@
 module apps.portals.controllers.pages.entities.pages.log;
 
-@safe:
 import apps.portals;
+@safe:
 
 // Main
 public import apps.portals.controllers.pages.entities.pages.log.index;

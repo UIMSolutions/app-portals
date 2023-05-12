@@ -1,7 +1,7 @@
 module apps.portals.controllers.pages.entities.web.template_;
 
-@safe:
 import apps.portals;
+@safe:
 
 // Main
 public import apps.portals.controllers.pages.entities.web.template_.index;

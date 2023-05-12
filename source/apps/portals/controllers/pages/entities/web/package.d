@@ -1,7 +1,7 @@
 module apps.portals.controllers.pages.entities.web;
 
-@safe:
 import apps.portals;
+@safe:
 
 public import apps.portals.controllers.pages.entities.web.files;
 public import apps.portals.controllers.pages.entities.web.pages;
