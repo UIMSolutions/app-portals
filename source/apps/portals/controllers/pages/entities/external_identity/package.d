@@ -1,7 +1,7 @@
 module apps.portals.controllers.pages.entities.exteral_identity;
 
-@safe:
 import apps.portals;
+@safe:
 
 public import apps.portals.controllers.pages.entities.exteral_identity.index;
 public import apps.portals.controllers.pages.entities.exteral_identity.create;

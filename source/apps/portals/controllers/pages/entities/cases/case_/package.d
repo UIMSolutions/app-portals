@@ -1,7 +1,7 @@
 module apps.portals.controllers.pages.entities.cases.case_;
 
-@safe:
 import apps.portals;
+@safe:
 
 public import apps.portals.controllers.pages.entities.cases.case_.index;
 public import apps.portals.controllers.pages.entities.cases.case_.create;
