@@ -5,8 +5,8 @@
 ***********************************************************************************************************************/
 module apps.portals.views.entities.ads.ad;
 
-@safe:
 import apps.portals;
+@safe:
 
 public import apps.portals.views.entities.ads.ad.index;
 public import apps.portals.views.entities.ads.ad.create;

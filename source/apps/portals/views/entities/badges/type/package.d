@@ -5,8 +5,8 @@
 ***********************************************************************************************************************/
 module apps.portals.views.entities.badges.type;
 
-@safe:
 import apps.portals;
+@safe:
 
 public import apps.portals.views.entities.badges.type.index;
 public import apps.portals.views.entities.badges.type.create;

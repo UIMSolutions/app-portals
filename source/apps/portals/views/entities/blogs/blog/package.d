@@ -5,8 +5,8 @@
 ***********************************************************************************************************************/
 module apps.portals.views.entities.blogs.blog;
 
-@safe:
 import apps.portals;
+@safe:
 
 public import apps.portals.views.entities.blogs.blog.index;
 public import apps.portals.views.entities.blogs.blog.create;
