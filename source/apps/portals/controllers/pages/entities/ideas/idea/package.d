@@ -5,8 +5,8 @@
 ***********************************************************************************************************************/
 module apps.portals.controllers.pages.entities.ideas.idea;
 
-@safe:
 import apps.portals;
+@safe:
 
 // Main
 public import apps.portals.controllers.pages.entities.ideas.idea.index;

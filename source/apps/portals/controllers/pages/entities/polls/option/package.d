@@ -5,8 +5,8 @@
 ***********************************************************************************************************************/
 module apps.portals.controllers.pages.entities.polls.option;
 
-@safe:
 import apps.portals;
+@safe:
 
 // Main
 public import apps.portals.controllers.pages.entities.polls.option.index;

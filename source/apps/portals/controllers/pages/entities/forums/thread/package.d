@@ -1,7 +1,7 @@
 module apps.portals.controllers.pages.entities.forums.thread;
 
-@safe:
 import apps.portals;
+@safe:
 
 public import apps.portals.controllers.pages.entities.forums.thread.index;
 public import apps.portals.controllers.pages.entities.forums.thread.create;
