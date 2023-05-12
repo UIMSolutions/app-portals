@@ -5,8 +5,8 @@
 ***********************************************************************************************************************/
 module apps.portals.views.components;
 
-@safe:
 import apps.portals;
+@safe:
 
 public import apps.portals.views.components.forms;
 public import apps.portals.views.components.pages;

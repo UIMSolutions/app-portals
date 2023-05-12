@@ -5,8 +5,8 @@
 ***********************************************************************************************************************/
 module apps.portals.views.entities;
 
-@safe:
 import apps.portals;
+@safe:
 
 public import apps.portals.views.entities.ads;
 public import apps.portals.views.entities.badges;
