@@ -5,9 +5,6 @@
 ***********************************************************************************************************************/
 module apps.portals.views.entities.web.pages;
 
-import apps.portals;
-@safe:
+/* public import apps.portals.views.entities.web.pages.page;
 
-public import apps.portals.views.entities.web.pages.page;
-
-public import apps.portals.views.entities.web.pages.log;
+public import apps.portals.views.entities.web.pages.log; */

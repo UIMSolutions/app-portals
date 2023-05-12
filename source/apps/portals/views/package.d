@@ -5,8 +5,7 @@
 ***********************************************************************************************************************/
 module apps.portals.views;
 
-import apps.portals;
-@safe:
+
 
 public { // Packages
   import apps.portals.views.components;

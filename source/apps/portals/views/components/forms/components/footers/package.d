@@ -5,5 +5,3 @@
 ***********************************************************************************************************************/
 module apps.portals.views.components.forms.components.footers;
 
-import apps.portals;
-@safe:

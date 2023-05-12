@@ -5,10 +5,8 @@
 ***********************************************************************************************************************/
 module apps.portals.views.entities.web.files;
 
-import apps.portals;
-@safe:
 
-public import apps.portals.views.entities.web.files.file;
+/* public import apps.portals.views.entities.web.files.file;
 
-public import apps.portals.views.entities.web.files.log;
+public import apps.portals.views.entities.web.files.log; */
 

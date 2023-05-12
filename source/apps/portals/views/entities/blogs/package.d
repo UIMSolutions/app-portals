@@ -5,9 +5,6 @@
 ***********************************************************************************************************************/
 module apps.portals.views.entities.blogs;
 
-import apps.portals;
-@safe:
-
 // Main
 public import apps.portals.views.entities.blogs.blog;
 

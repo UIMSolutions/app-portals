@@ -1,9 +1,13 @@
 {
+	"name": "app-portals",
+	"description": "App for portal management",
 	"authors": [
-		"UI Manufaktur Team",
-		"Ozan Nurettin Süel",
-		"Sicherheitsschmiede"
+		"Sicherheitsschmiede",
+		"Ozan Nurettin Süel"
 	],
+	"copyright": "Copyright © 2015-2023, Ozan Nurettin Süel",	
+	"license": "Apache-2.0",
+	"targetType": "library",
 	"configurations": [
 		{
 			"name": "offline",
@@ -13,49 +17,55 @@
 			"name": "test",
 			"targetType": "library",
 			"versions": [
-				"test_app_portals"
+				"test_app_ecm"
 			]
 		}
 	],
-	"copyright": "Copyright © 2017-2022, UI Manufaktur UG. 2022 Ozan Nurettin Süel (Sicherheitsschmiede)",
 	"dependencies": {
 		"colored": "~>0.0.23",
-		"vibe-d": "~>0.9.4"
+		"vibe-d": "~>0.9.6"
 	},
-	"description": "D Library for creating portal applications",
 	"importPaths": [
 		"../../LIBS/uim-core",
 		"../../LIBS/uim-oop",
 		"../../LIBS/uim-css",
-		"../../LIBS/uim-javascript",
+		"../../LIBS/uim-mvc",
 		"../../LIBS/uim-html",
 		"../../LIBS/uim-bootstrap",
+		"../../LIBS/uim-controls",
 		"../../LIBS/uim-apps",
 		"../../LIBS/uim-servers",
 		"../../LIBS/uim-jsonbase",
-		"../../LIBS/uim-entities",
+		"../../LIBS/uim-models",
 		"../../LIBS/uim-entitybase",
+
 		"../../MODELS/model-portals",
+		"../../MODELS/model-systems",
+
+		"../../LANGS/lang-javascript",
+
 		"../../LAYOUTS/layout-tabler/source/layouts",
 		"./"
 	],
-	"license": "MIT",
-	"name": "uim-cms",
 	"sourcePaths": [
 		"../../LIBS/uim-core",
 		"../../LIBS/uim-oop",
 		"../../LIBS/uim-css",
-		"../../LIBS/uim-javascript",
+		"../../LIBS/uim-mvc",
 		"../../LIBS/uim-html",
 		"../../LIBS/uim-bootstrap",
+		"../../LIBS/uim-controls",
 		"../../LIBS/uim-apps",
 		"../../LIBS/uim-servers",
 		"../../LIBS/uim-jsonbase",
-		"../../LIBS/uim-entities",
+		"../../LIBS/uim-models",
 		"../../LIBS/uim-entitybase",
+		
 		"../../MODELS/model-portals",
+		"../../MODELS/model-systems",
+
+		"../../LANGS/lang-javascript",
 		"../../LAYOUTS/layout-tabler/source/layouts",
 		"./"
-	],
-	"targetType": "library"
+	]
 }

@@ -5,8 +5,7 @@
 ***********************************************************************************************************************/
 module apps.portals.views.components.pages;
 
-import apps.portals;
-@safe:
+
 
 public import apps.portals.views.components.pages.bodies;
 public import apps.portals.views.components.pages.footers;

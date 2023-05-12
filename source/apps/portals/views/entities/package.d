@@ -5,9 +5,6 @@
 ***********************************************************************************************************************/
 module apps.portals.views.entities;
 
-import apps.portals;
-@safe:
-
 public import apps.portals.views.entities.ads;
 public import apps.portals.views.entities.badges;
 public import apps.portals.views.entities.blogs;
@@ -17,4 +14,4 @@ public import apps.portals.views.entities.ideas;
 public import apps.portals.views.entities.polls;
 public import apps.portals.views.entities.web;
 
-public import apps.portals.views.entities.external_identity;
+/* public import apps.portals.views.entities.external_identity; */
