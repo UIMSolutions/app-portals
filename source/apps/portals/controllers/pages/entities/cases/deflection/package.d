@@ -1,7 +1,6 @@
 module apps.portals.controllers.pages.entities.cases.deflection;
 
-import apps.portals;
-@safe:
+
 
 public import apps.portals.controllers.pages.entities.cases.deflection.index;
 public import apps.portals.controllers.pages.entities.cases.deflection.create;
