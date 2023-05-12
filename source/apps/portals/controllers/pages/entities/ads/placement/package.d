@@ -1,7 +1,7 @@
 module apps.portals.controllers.pages.entities.ads.placement;
 
-@safe:
 import apps.portals;
+@safe:
 
 public import apps.portals.controllers.pages.entities.ads.placement.index;
 public import apps.portals.controllers.pages.entities.ads.placement.create;

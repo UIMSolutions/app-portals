@@ -1,7 +1,7 @@
 module apps.portals.controllers;
 
-@safe:
 import apps.portals;
+@safe:
 
 public import apps.portals.controllers.actions;
 public import apps.portals.controllers.apis;

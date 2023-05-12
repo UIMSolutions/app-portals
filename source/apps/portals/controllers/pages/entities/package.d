@@ -1,7 +1,7 @@
 module apps.portals.controllers.pages.entities;
 
-@safe:
 import apps.portals;
+@safe:
 
 public import apps.portals.controllers.pages.entities.ads;
 public import apps.portals.controllers.pages.entities.badges;
