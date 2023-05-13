@@ -9,9 +9,9 @@ import apps.portals;
 @safe:
 
 class DAPPAdCreateView : DAPPEntityCreateView {
-  mixin(APPViewThis!("DAPPAdCreateView"));
+  mixin(ViewThis!("APPAdCreateView"));
 }
-mixin(APPViewCalls!("DAPPAdCreateView"));
+mixin(ViewCalls!("APPAdCreateView"));
 
 version(test_modul_portals) {
   unittest {
