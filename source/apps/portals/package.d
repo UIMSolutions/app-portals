@@ -24,9 +24,9 @@ public {
   import apps.portals.views;
 }
 
-DApplication portalsApp;
+DApp portalsApp;
 static this() {
-  portalsApp = Application
+  portalsApp = App
     .name("portalsApp")
     .rootPath("/apps/portals")
     .addRoute(Route("/", HTTPMethod.GET, PortalsIndexPageController));

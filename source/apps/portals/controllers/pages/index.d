@@ -3,7 +3,7 @@ module apps.portals.controllers.pages.index;
 import apps.portals;
 @safe:
 
-class DPortalsIndexPageController : DPageController {
+class DPortalsIndexPageController : DAPPPageController {
   mixin(ControllerThis!("PortalsIndexPageController"));
 
   override void initialize(Json configSettings = Json(null)) {
