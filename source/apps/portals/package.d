@@ -25,7 +25,7 @@ public {
 }
 
 static this() {
-  AppRegistry.register(  
+  AppRegistry.register("apps.portals",  
     App
     .name("portalsApp")
     .rootPath("/apps/portals")
