@@ -24,10 +24,11 @@ public {
   import apps.portals.views;
 }
 
-DApp portalsApp;
 static this() {
-  portalsApp = App
+  AppRegistry.register(  
+    App
     .name("portalsApp")
     .rootPath("/apps/portals")
-    .addRoute(Route("/", HTTPMethod.GET, PortalsIndexPageController));
+    .addRoute(Route("", HTTPMethod.GET, PortalsIndexPageController))
+    .addRoute(Route("/", HTTPMethod.GET, PortalsIndexPageController)));
 }
