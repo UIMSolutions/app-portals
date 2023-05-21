@@ -3,8 +3,8 @@ module apps.portals.views.index;
 import apps.portals;
 @safe:
 
-class DPortalsIndexView : DView {
-  mixin(ViewThis!("PortalsIndexView"));
+class DIndexView : DView {
+  mixin(ViewThis!("IndexView"));
 
   override void beforeH5(STRINGAA options = null) {
     super.beforeH5(options);
@@ -14,4 +14,4 @@ class DPortalsIndexView : DView {
         .title("portals -> Index"); */
   }
 }
-mixin(ViewCalls!("PortalsIndexView", "DPortalsIndexView"));
+mixin(ViewCalls!("IndexView", "DIndexView"));

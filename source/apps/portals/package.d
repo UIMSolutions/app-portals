@@ -29,6 +29,6 @@ static this() {
     App
     .name("portalsApp")
     .rootPath("/apps/portals")
-    .addRoute(Route("", HTTPMethod.GET, PortalsIndexPageController))
-    .addRoute(Route("/", HTTPMethod.GET, PortalsIndexPageController)));
+    .addRoute(Route("", HTTPMethod.GET, IndexPageController))
+    .addRoute(Route("/", HTTPMethod.GET, IndexPageController)));
 }
