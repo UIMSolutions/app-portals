@@ -3,7 +3,7 @@ module apps.portals.controllers.pages.error;
 import apps.portals;
 @safe:
 
-class DPortalsErrorPageController : DAPPPageController {
+class DPortalsErrorPageController : DPageController {
   mixin(ControllerThis!("PortalsErrorPageController"));
 
   override void initialize(Json configSettings = Json(null)) {

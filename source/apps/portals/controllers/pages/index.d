@@ -3,7 +3,7 @@ module apps.portals.controllers.pages.index;
 import apps.portals;
 @safe:
 
-class DIndexPageController : DAPPPageController {
+class DIndexPageController : DPageController {
   mixin(ControllerThis!("IndexPageController"));
 
   override void initialize(Json configSettings = Json(null)) {
@@ -13,4 +13,4 @@ class DIndexPageController : DAPPPageController {
       .view(IndexView(this));
   }
 }
-mixin(ControllerCalls!("IndexPageController", "DIndexPageController"));
+mixin(ControllerCalls!("IndexPageController"));
