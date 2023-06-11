@@ -29,6 +29,7 @@ static this() {
     App
     .name("portalsApp")
     .rootPath("/apps/portals")
+                       .importTranslations()
     .addRoute(Route("", HTTPMethod.GET, IndexPageController))
     .addRoute(Route("/", HTTPMethod.GET, IndexPageController)));
 }
