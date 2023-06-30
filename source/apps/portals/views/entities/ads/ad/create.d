@@ -8,7 +8,7 @@ module apps.portals.views.entities.ads.ad.create;
 import apps.portals;
 @safe:
 
-class DAPPAdCreateView : DAPPEntityCreateView {
+class DAPPAdCreateView : DEntityCreateView {
   mixin(ViewThis!("APPAdCreateView"));
 }
 mixin(ViewCalls!("APPAdCreateView"));
