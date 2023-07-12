@@ -26,10 +26,11 @@ public {
 
 static this() {
   AppRegistry.register("apps.portals",  
-    App
-    .name("portalsApp")
-    .rootPath("/apps/portals")
-                       .importTranslations()
-    .addRoute(Route("", HTTPMethod.GET, IndexPageController))
-    .addRoute(Route("/", HTTPMethod.GET, IndexPageController)));
+    App("portalsApp", "/apps/portals")
+      .importTranslations()
+      .addRoutes(
+        Route("", HTTPMethod.GET, IndexPageController),
+        Route("/", HTTPMethod.GET, IndexPageController)
+      )
+    );
 }
