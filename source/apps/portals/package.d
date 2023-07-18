@@ -26,7 +26,7 @@ public {
 
 static this() {
   AppRegistry.register("apps.portals",  
-    App("portalsApp", "/apps/portals")
+    App("portalsApp", "apps/portals")
       .importTranslations()
       .addRoutes(
         Route("", HTTPMethod.GET, IndexPageController),
