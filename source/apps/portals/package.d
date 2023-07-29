@@ -2,8 +2,10 @@ module apps.portals;
 
 mixin(ImportPhobos!());
 
-// Dub
-public import vibe.d;
+// External
+public {
+  import vibe.d;
+}
 
 // UIM
 public import uim.core;
@@ -25,12 +27,18 @@ public {
 }
 
 static this() {
-  AppRegistry.register("apps.portals",  
-    App("portalsApp", "apps/portals")
-      .importTranslations()
-      .addRoutes(
-        Route("", HTTPMethod.GET, IndexPageController),
-        Route("/", HTTPMethod.GET, IndexPageController)
-      )
+  auto myApp = App("portalsApp", "apps/portals");
+
+  with (myApp) {
+    importTranslations;
+    addControllers([
+      "portal.index": IndexPageController
+    ]);
+    addRoutes(
+      Route("", HTTPMethod.GET, controller("portal.index")),
+      Route("/", HTTPMethod.GET, controller("portal.index"))
     );
+  }
+  
+  AppRegistry.register("apps.portals", myApp);
 }
